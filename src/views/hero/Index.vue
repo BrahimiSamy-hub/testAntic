@@ -53,7 +53,7 @@
   height: 100vh;
   width: 50%;
 }
-@media (max-width: 1120px) {
+@media (max-width: 1386px) {
   .title-hero {
     color: #ffffff;
     font-size: 35px;

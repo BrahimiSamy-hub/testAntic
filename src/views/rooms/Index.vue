@@ -1,4 +1,5 @@
 <template>
+  <h1>Find you room</h1>
   <swiper
     :navigation="{
       nextEl: '.custom-next',
@@ -7,6 +8,7 @@
     :modules="modules"
     class="mySwiper"
   >
+    <div>hey</div>
     <swiper-slide>Slide 1</swiper-slide>
     <swiper-slide>Slide 2</swiper-slide>
     <swiper-slide>Slide 3</swiper-slide>

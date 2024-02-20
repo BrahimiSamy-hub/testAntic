@@ -6,14 +6,19 @@
     </div>
     <ul class="nav-items">
       <a href="#"
-        ><li><img src="../assets/Logotype.svg" alt="Logo" /></li
+        ><li>
+          <img
+            src="../assets/Logotype.svg"
+            alt="Logo"
+            style="color: white"
+          /></li
       ></a>
       <a href="#"><li>Products</li></a>
       <a href="#"><li>Rooms</li></a>
       <a href="#"><li>Services</li></a>
       <a href="#"><li>Inspirations</li></a>
       <a href="#"
-        ><li style="margin-left: 1000px">
+        ><li class="nav-contact">
           <img src="../assets/Contact.svg" alt="Contact" /></li
       ></a>
     </ul>
@@ -27,6 +32,7 @@ i {
 }
 .nav-menu {
   z-index: 1000;
+  margin-left: 150px;
   position: absolute;
 }
 .nav-content {
@@ -49,10 +55,17 @@ a {
   margin: 0;
   padding: 0;
 }
+.menu-toggle {
+  display: none;
+  padding: 10px;
+}
+.nav-contact {
+  margin-left: 1000px;
+}
 
 @media screen and (max-width: 768px) {
   .nav-menu {
-    padding-top: 10px;
+    /* padding-top: 10px; */
     position: absolute;
     width: 100%;
   }
@@ -60,7 +73,6 @@ a {
   .nav-content {
     flex-direction: column;
     z-index: 100;
-    position: relative;
     transition: all 0.2s ease-out;
   }
   .nav-items {
@@ -71,13 +83,6 @@ a {
     text-align: right;
     padding: 0 10px 10px 0;
   }
-}
-.menu-toggle {
-  display: none;
-  padding: 10px;
-}
-
-@media screen and (max-width: 768px) {
   .menu-toggle {
     display: block;
     position: absolute;
@@ -86,10 +91,22 @@ a {
   }
 
   .nav-items {
-    display: none; /* Hide by default on mobile */
+    display: none;
     flex-direction: column;
     width: 100%;
     align-items: center;
+  }
+}
+
+@media screen and (max-width: 1386px) {
+  a {
+    color: #f7f8f9;
+  }
+  .nav-menu {
+    margin-left: 70px;
+  }
+  .nav-contact {
+    margin-left: 35px;
   }
 }
 </style>

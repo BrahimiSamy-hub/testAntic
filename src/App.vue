@@ -3,7 +3,7 @@
   <Hero />
   <Room />
   <Products />
-  <!-- <Inspirations /> -->
+  <Inspirations />
   <!-- <router-view /> -->
   <Footer />
 </template>
@@ -32,6 +32,9 @@ h2 {
   font-family: 'Merriweather', serif;
   font-size: 55px;
   font-weight: 400;
+}
+a {
+  text-decoration: none;
 }
 body {
   background-color: #f3eee8;
