@@ -12,7 +12,7 @@
       </div>
       <aside class="text-content4">
         <div>
-          <h1 class="services-title">Our Advices</h1>
+          <span class="services-title">Our Advices</span>
           <p class="services-desc">
             What if you took advantage of this rather special period to rethink
             your interior? You spend more time at home so you might as well feel
@@ -20,21 +20,21 @@
           </p>
         </div>
         <div>
-          <h1 class="services-title">Click and Collect</h1>
+          <span class="services-title">Click and Collect</span>
           <p class="services-desc">
             Adapted and contactless. Free from € 200 of purchases in stores
             offering the service.
           </p>
         </div>
         <div>
-          <h1 class="services-title">Conception Service</h1>
+          <span class="services-title">Conception Service</span>
           <p class="services-desc">
             Personalized service with an expert advisor for your interior and
             exterior decoration or layout projects.
           </p>
         </div>
         <div>
-          <h1 class="services-title">Installation Service</h1>
+          <span class="services-title">Installation Service</span>
           <p class="services-desc">
             Our furniture packaged in flat packs are designed for easy assembly.
             But you can call on our partner.

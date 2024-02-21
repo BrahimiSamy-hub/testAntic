@@ -47,13 +47,15 @@
         <li class="title">We respect our planet</li>
         <ul class="">
           <img src="../assets/Picture(6).png" alt="" />
-          <p>
+          <p class="item-p">
             We’re taking positive steps to reduce <br />
             our impact on the planet <br />
             For us, that means retailing <br />
             responsibly.
           </p>
-          <a href="#">Learn more</a>
+          <a href="#" class="item-a"
+            >Learn more <img src="../assets/Right.svg" alt=""
+          /></a>
         </ul>
       </ul>
     </div>
@@ -74,12 +76,22 @@
       </ul>
       <ul
         style="
-          display: flex;
-          justify-content: space-between;
-          flex-direction: row-reverse;
+          /* display: flex; */
+          /* justify-content: space-between; */
+          /* flex-direction: row; */
         "
       >
-        <ul>
+        <ul
+          style="
+            display: flex;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            gap: 20px;
+            /* justify-content: space-between;   */
+            /* justify-content: center; */
+            flex-direction: end;
+          "
+        >
           <li>
             <a href=""><span>Privacy policy</span></a>
           </li>
@@ -91,7 +103,7 @@
             <a href=""><span>Language</span></a>
           </li>
         </ul>
-        <p class="copyright">
+        <p class="copyright" style="justify-content: center">
           &copy; {{ new Date().getFullYear() }} Agence Dnd
         </p>
       </ul>
@@ -100,7 +112,6 @@
 </template>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Varta:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Varta:wght@300..700&display=swap');
 snap {
   font-family: 'Varta', sans-serif;
@@ -116,6 +127,19 @@ snap {
   margin-top: 70px;
   margin-right: 150px;
   margin-left: 150px;
+}
+
+.item-p {
+  color: #706458;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.item-a {
+  color: #a06056;
+  font-size: 17px;
+  font-weight: 700;
 }
 
 .title {

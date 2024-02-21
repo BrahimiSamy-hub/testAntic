@@ -51,8 +51,6 @@
 }
 .text-content2 {
   /* display: grid;
-
-  
   grid-template: repeat(3, 1fr) / repeat(2, 1fr); */
   display: flex;
   gap: 10px;
@@ -62,7 +60,7 @@
 }
 .container {
   grid-template: repeat(1, 1fr) / repeat(2, 1fr);
-  display: flex;
+
   margin-right: 150px;
   margin-left: 150px;
   justify-content: space-between;

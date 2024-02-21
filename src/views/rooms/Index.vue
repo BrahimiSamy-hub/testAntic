@@ -6,15 +6,31 @@
       font-size: 55px;
       font-weight: 400;
       color: #706458;
+      margin-bottom: 48px;
     "
     data-aos="fade-up"
+    data-aos-duration="1500"
   >
     Find you room
   </h1>
-  <div style="display: flex; margin-left: 150px" data-aos="fade-up">
-    <p style="width: 165px">
+  <div
+    style="display: flex; margin-left: 150px; gap: 24px"
+    data-aos="fade-up"
+    data-aos-duration="1500"
+  >
+    <p
+      style="
+        width: 165px;
+
+        font-size: 18px;
+        font-weight: 400;
+        color: #706458e5;
+        min-width: 165px;
+      "
+    >
       Dining room, bedroom, bathroom or office. Find what you need
     </p>
+
     <swiper
       style="margin-right: 150px"
       :slidesPerView="2"
@@ -24,16 +40,19 @@
       }"
       :modules="modules"
       class="mySwiper"
+      data-aos="fade-up"
+      data-aos-duration="1500"
     >
       <swiper-slide>
         <h2 class="slide-title">Bedroom</h2>
+
         <img
           src="../../assets/Picture(1).png"
           loading="lazy"
           alt=""
           class="slide-image"
         />
-        <p>dsqds</p>
+        <p class="slide-p">New arrivals</p>
       </swiper-slide>
 
       <swiper-slide>
@@ -44,7 +63,7 @@
           alt=""
           class="slide-image"
         />
-        <p>dsqds</p>
+        <p class="slide-p">New arrivals</p>
       </swiper-slide>
 
       <swiper-slide>
@@ -55,7 +74,7 @@
           alt=""
           class="slide-image"
         />
-        <p>dsqds</p>
+        <p class="slide-p">New arrivals</p>
       </swiper-slide>
 
       <swiper-slide>
@@ -66,7 +85,7 @@
           alt=""
           class="slide-image"
         />
-        <p>dsqds</p>
+        <p class="slide-p">New arrivals</p>
       </swiper-slide>
 
       <div class="swiper-navigation">
@@ -120,6 +139,14 @@ export default {
 .slide-title {
   position: absolute;
   color: #a06056;
+  margin-left: 100px;
+}
+.slide-p {
+  color: #706458e5;
+  font-size: 18px;
+  font-weight: 400;
+  align-self: flex-start;
+  margin-left: 32px;
 }
 .slide-image {
   object-fit: contain;

@@ -1,6 +1,6 @@
 <template>
   <section class="container-hero">
-    <div class="text-content-hero">
+    <div class="text-content-hero" data-aos="fade-up" data-aos-duration="1500">
       <small class="small-hero">Home Design</small>
       <h1 class="title-hero">Elegance for Interiors & Exteriors</h1>
       <p class="desc-hero">
@@ -11,7 +11,13 @@
       </a>
     </div>
     <div class="heroImg">
-      <img src="../../assets/Picture.png" loading="lazy" alt="My Image" />
+      <img
+        src="../../assets/Picture.png"
+        loading="lazy"
+        alt="My Image"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+      />
     </div>
   </section>
 </template>

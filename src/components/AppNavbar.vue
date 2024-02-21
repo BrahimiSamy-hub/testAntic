@@ -1,22 +1,22 @@
 <template>
-  <nav class="nav-menu nav-content">
+  <nav class="nav-menu nav-content" data-aos="fade-up" data-aos-duration="1500">
     <!-- Toggle Button for Mobile Menu -->
-    <div class="menu-toggle">
-      <button id="toggle-menu"><img src="../assets/Menu.svg" alt="" /></button>
-    </div>
+    <!-- <div class="menu-toggle">
+      <button id="toggle-menu">
+        <img src="../assets/Menu.svg" alt="" />
+      </button>
+    </div> -->
     <ul class="nav-items">
       <a href="#"
         ><li>
-          <img
-            src="../assets/Logotype.svg"
-            alt="Logo"
-            style="color: white"
-          /></li
+          <!-- <img src="../assets/Logotype.svg" alt="Logo" style="color: white" /> -->
+          <Logo class="logo-desktop" />
+          <LogoWhite class="logo-mobile" /></li
       ></a>
-      <a href="#"><li>Products</li></a>
-      <a href="#"><li>Rooms</li></a>
-      <a href="#"><li>Services</li></a>
-      <a href="#"><li>Inspirations</li></a>
+      <a href="#"><li class="nav-items">Products</li></a>
+      <a href="#"><li class="nav-items">Rooms</li></a>
+      <a href="#"><li class="nav-items">Services</li></a>
+      <a href="#"><li class="nav-items">Inspirations</li></a>
       <a href="#"
         ><li class="nav-contact">
           <img src="../assets/Contact.svg" alt="Contact" /></li
@@ -24,7 +24,11 @@
     </ul>
   </nav>
 </template>
-
+<script>
+import Logo from '@/components/Logo'
+import LogoWhite from '@/components/LogoWhite.vue'
+export default { components: { LogoWhite, Logo } }
+</script>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Varta:wght@300..700&display=swap');
 i {
@@ -63,6 +67,14 @@ a {
   margin-left: 1000px;
 }
 
+.logo-desktop {
+  display: block;
+}
+
+.logo-mobile {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   .nav-menu {
     /* padding-top: 10px; */
@@ -99,7 +111,7 @@ a {
 }
 
 @media screen and (max-width: 1386px) {
-  a {
+  .nav-items {
     color: #f7f8f9;
   }
   .nav-menu {
@@ -107,6 +119,13 @@ a {
   }
   .nav-contact {
     margin-left: 35px;
+  }
+  .logo-desktop {
+    display: none;
+  }
+
+  .logo-mobile {
+    display: block;
   }
 }
 </style>
