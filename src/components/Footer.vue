@@ -148,6 +148,21 @@ snap {
   justify-content: space-between;
 }
 @media (max-width: 1024px) {
+  .title {
+    margin-bottom: 22px;
+    color: #534b42;
+    font-weight: 600;
+    font-size: 25px;
+  }
+
+  .sub-title {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color: #706458;
+    font-weight: 400;
+    font-size: 18px;
+  }
   .footer {
     margin-top: 48px;
     margin-right: 50px;
@@ -160,7 +175,21 @@ snap {
     flex-direction: column;
     /* justify-content: space-between; */
   }
+  .title {
+    margin-bottom: 22px;
+    color: #534b42;
+    font-weight: 600;
+    font-size: 25px;
+  }
 
+  .sub-title {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color: #706458;
+    font-weight: 400;
+    font-size: 18px;
+  }
   .footer {
     margin-top: 48px;
     margin-right: 32px;

@@ -28,7 +28,7 @@ li {
   list-style: none;
 }
 h2 {
-  color: #706458;
+  /* color: #706458; */
   font-family: 'Merriweather', serif;
   font-size: 55px;
   font-weight: 400;
@@ -38,7 +38,6 @@ a {
 }
 body {
   background-color: #f3eee8;
-  /* margin-left: 90px; */
 }
 * {
   margin: 0;
@@ -47,6 +46,12 @@ body {
 @media screen and (max-width: 768px) {
   h2 {
     font-size: 35px;
+  }
+  body {
+  }
+}
+@media (max-width: 1024px) {
+  body {
   }
 }
 </style>

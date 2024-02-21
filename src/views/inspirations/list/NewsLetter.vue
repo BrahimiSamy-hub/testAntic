@@ -1,4 +1,4 @@
-<template>
+<template style="color: white">
   <section style="min-height: 800px; background-color: white">
     <div class="container">
       <div class="text-content">
@@ -57,8 +57,8 @@
   display: flex;
   gap: 10px;
   height: 50px;
-  margin-right: 150px;
-  margin-left: 150px;
+  /* margin-right: 150px;
+  margin-left: 150px; */
 }
 .container {
   grid-template: repeat(1, 1fr) / repeat(2, 1fr);

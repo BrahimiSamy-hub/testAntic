@@ -1,41 +1,89 @@
 <template>
-  <h1>Find you room</h1>
-  <swiper
-    :navigation="{
-      nextEl: '.custom-next',
-      prevEl: '.custom-prev',
-    }"
-    :modules="modules"
-    class="mySwiper"
+  <h1
+    style="
+      margin-left: 150px;
+      margin-top: 64px;
+      font-size: 55px;
+      font-weight: 400;
+      color: #706458;
+    "
+    data-aos="fade-up"
   >
-    <div>hey</div>
-    <swiper-slide>Slide 1</swiper-slide>
-    <swiper-slide>Slide 2</swiper-slide>
-    <swiper-slide>Slide 3</swiper-slide>
-    <swiper-slide>Slide 4</swiper-slide>
-    <swiper-slide>Slide 5</swiper-slide>
-    <swiper-slide>Slide 6</swiper-slide>
-    <swiper-slide>Slide 7</swiper-slide>
-    <swiper-slide>Slide 8</swiper-slide>
-    <swiper-slide>Slide 9</swiper-slide>
-    <!-- Custom Navigation Buttons -->
-    <div class="swiper-navigation">
-      <button class="custom-prev">Previous</button>
-      <button class="custom-next">Next</button>
-    </div>
-  </swiper>
+    Find you room
+  </h1>
+  <div style="display: flex; margin-left: 150px" data-aos="fade-up">
+    <p style="width: 165px">
+      Dining room, bedroom, bathroom or office. Find what you need
+    </p>
+    <swiper
+      style="margin-right: 150px"
+      :slidesPerView="2"
+      :navigation="{
+        nextEl: '.custom-next',
+        prevEl: '.custom-prev',
+      }"
+      :modules="modules"
+      class="mySwiper"
+    >
+      <swiper-slide>
+        <h2 class="slide-title">Bedroom</h2>
+        <img
+          src="../../assets/Picture(1).png"
+          loading="lazy"
+          alt=""
+          class="slide-image"
+        />
+        <p>dsqds</p>
+      </swiper-slide>
+
+      <swiper-slide>
+        <h2 class="slide-title">Living room</h2>
+        <img
+          src="../../assets/Picture(2).png"
+          loading="lazy"
+          alt=""
+          class="slide-image"
+        />
+        <p>dsqds</p>
+      </swiper-slide>
+
+      <swiper-slide>
+        <h2 class="slide-title">Bedroom</h2>
+        <img
+          src="../../assets/Picture(1).png"
+          loading="lazy"
+          alt=""
+          class="slide-image"
+        />
+        <p>dsqds</p>
+      </swiper-slide>
+
+      <swiper-slide>
+        <h2 class="slide-title">Living room</h2>
+        <img
+          src="../../assets/Picture(2).png"
+          loading="lazy"
+          alt=""
+          class="slide-image"
+        />
+        <p>dsqds</p>
+      </swiper-slide>
+
+      <div class="swiper-navigation">
+        <span class="custom-next"
+          >Next
+          <img src="../../assets/Right.svg" alt="" />
+        </span>
+      </div>
+    </swiper>
+  </div>
 </template>
 <script>
-// Import Swiper Vue.js components
 import { Swiper, SwiperSlide } from 'swiper/vue'
-
-// Import Swiper styles
+import { Pagination, Navigation } from 'swiper/modules'
 import 'swiper/css'
 import 'swiper/css/pagination'
 import 'swiper/css/navigation'
-
-// import required modules
-import { Pagination, Navigation } from 'swiper/modules'
 
 export default {
   components: {
@@ -51,48 +99,33 @@ export default {
 </script>
 
 <style>
-#app {
-  height: 100%;
-}
-html,
-body {
-  position: relative;
-  height: 100%;
+.custom-next {
+  cursor: pointer;
 }
 .swiper-navigation {
-  z-index: 9999;
-  color: RED;
-  margin-top: 50px;
+  margin-top: 48px;
+  color: #a06056;
+  font-size: 20px;
+  font-weight: 700;
 }
-body {
-  background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
-}
-
 .swiper {
   width: 100%;
   height: 100%;
+  margin: 0;
 }
-
 .swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-
-  /* Center slide text vertically */
   display: flex;
-  justify-content: center;
   align-items: center;
 }
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.slide-title {
+  position: absolute;
+  color: #a06056;
+}
+.slide-image {
+  object-fit: contain;
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 1024px) {
 }
 </style>

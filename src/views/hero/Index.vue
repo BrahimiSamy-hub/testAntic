@@ -11,7 +11,7 @@
       </a>
     </div>
     <div class="heroImg">
-      <img src="../../assets/Picture.png" alt="My Image" />
+      <img src="../../assets/Picture.png" loading="lazy" alt="My Image" />
     </div>
   </section>
 </template>
