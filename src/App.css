@@ -4,12 +4,14 @@
 #app {
   font-family: 'Varta', sans-serif;
 }
+section {
+  margin-left: 150px;
+  margin-right: 150px;
+}
 li {
   list-style: none;
 }
 h2 {
-  /* color: #706458; */
-
   font-size: 55px;
   font-weight: 400;
 }
@@ -33,10 +35,17 @@ body {
   h2 {
     font-size: 35px;
   }
-  /* body {
-  } */
-}
-/* @media (max-width: 1024px) {
-  body {
+  section {
+    margin-left: 38px;
+    margin-right: 38px;
   }
-} */
+}
+@media screen and (max-width: 1024px) {
+  h2 {
+    font-size: 45px;
+  }
+  section {
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+}

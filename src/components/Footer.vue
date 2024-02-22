@@ -2,6 +2,7 @@
   <footer class="footer">
     <div class="links">
       <span><img src="../assets/LogotypeFooter.svg" alt="" /></span>
+
       <ul>
         <li class="title">Products</li>
         <ul class="sub-title">
@@ -12,6 +13,7 @@
           <a href=""><li>Connected home</li></a>
         </ul>
       </ul>
+
       <ul>
         <li class="title">Rooms</li>
         <ul class="sub-title">
@@ -25,6 +27,7 @@
           <a href=""><li>Garage</li></a>
         </ul>
       </ul>
+
       <ul>
         <li class="title">Services</li>
         <ul class="sub-title">
@@ -35,6 +38,7 @@
           <a href=""><li>Gift card</li></a>
         </ul>
       </ul>
+
       <ul>
         <li class="title">About</li>
         <ul class="sub-title">
@@ -43,10 +47,15 @@
           <a href=""><li>Our partners</li></a>
         </ul>
       </ul>
+
       <ul>
         <li class="title">We respect our planet</li>
         <ul class="">
-          <img src="../assets/Picture(6).png" alt="" />
+          <img
+            src="../assets/footer.jpeg"
+            alt=""
+            style="object-fit: contain; width: 240px; height: 180px"
+          />
           <p class="item-p">
             We’re taking positive steps to reduce <br />
             our impact on the planet <br />
@@ -59,6 +68,7 @@
         </ul>
       </ul>
     </div>
+
     <div>
       <ul class="social">
         <li>
@@ -74,21 +84,14 @@
           <a href=""><img src="../assets/Instagram.svg" alt="" /></a>
         </li>
       </ul>
-      <ul
-        style="
-          /* display: flex; */
-          /* justify-content: space-between; */
-          /* flex-direction: row; */
-        "
-      >
+      <ul>
         <ul
           style="
             display: flex;
             margin-top: 20px;
             margin-bottom: 20px;
             gap: 20px;
-            /* justify-content: space-between;   */
-            /* justify-content: center; */
+
             flex-direction: end;
           "
         >
@@ -111,7 +114,7 @@
   </footer>
 </template>
 
-<style>
+<style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Varta:wght@300..700&display=swap');
 snap {
   font-family: 'Varta', sans-serif;

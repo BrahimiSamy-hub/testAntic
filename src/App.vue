@@ -1,5 +1,5 @@
 <template>
-  <AppNavbar />
+  <!-- <AppNavbar /> -->
   <Hero />
   <Room />
   <Products />
@@ -21,5 +21,3 @@ export default {
   components: { AppNavbar, Hero, Room, Products, Inspirations, Footer },
 }
 </script>
-
-<style></style>
