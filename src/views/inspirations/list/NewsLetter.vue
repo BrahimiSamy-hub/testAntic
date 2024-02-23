@@ -113,6 +113,9 @@ input {
     margin-right: 70px;
     margin-left: 70px;
   }
+  .content-title {
+    margin-top: 50px;
+  }
 
   .subscription-form {
     margin-bottom: 50px;

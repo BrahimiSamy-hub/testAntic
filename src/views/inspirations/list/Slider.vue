@@ -11,23 +11,23 @@
       :modules="modules"
       class="mySwiper"
     >
-      <swiper-slide class="slide-image" style="width: 450px; height: 550px">
+      <swiper-slide class="slide-image" style="">
         <img src="../../../assets/Picture(3).png" alt="" />
       </swiper-slide>
 
-      <swiper-slide class="slide-image" style="width: 450px; height: 550px">
+      <swiper-slide class="slide-image" style="">
         <img src="../../../assets/Picture(4).png" alt="" />
       </swiper-slide>
 
-      <swiper-slide class="slide-image" style="width: 450px; height: 550px">
+      <swiper-slide class="slide-image" style="">
         <img src="../../../assets/Picture(3).png" alt="" />
       </swiper-slide>
 
-      <swiper-slide class="slide-image" style="width: 450px; height: 550px">
+      <swiper-slide class="slide-image" style="">
         <img src="../../../assets/Picture(4).png" alt="" />
       </swiper-slide>
 
-      <swiper-slide class="slide-image" style="width: 450px; height: 550px">
+      <swiper-slide class="slide-image" style="">
         <img src="../../../assets/Picture(3).png" alt="" />
       </swiper-slide>
 
@@ -136,6 +136,8 @@ export default {
 
 .slide-image {
   object-fit: contain;
+  width: 450px;
+  height: 550px;
 }
 @media screen and (max-width: 768px) {
 }
