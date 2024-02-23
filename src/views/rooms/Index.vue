@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section data-aos="fade-up" data-aos-duration="1500">
     <h1 class="main-title">Find you room</h1>
     <div class="container">
       <p class="main-p">

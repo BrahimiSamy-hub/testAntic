@@ -1,5 +1,5 @@
 <template>
-  <div class="content">
+  <div class="content" data-aos="fade-up" data-aos-duration="1500">
     <div class="text">
       <h2 class="content-title">Be aware of the latest trends</h2>
       <p class="content-paragraphe">

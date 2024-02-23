@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer">
+  <footer class="footer" data-aos="fade-up" data-aos-duration="1500">
     <div class="links">
       <span><img src="../assets/LogotypeFooter.svg" alt="" /></span>
 

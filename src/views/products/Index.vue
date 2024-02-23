@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section data-aos="fade-up" data-aos-duration="1500">
     <div class="section">
       <div class="container">
         <h2 class="section-title" style="color: #706458">
@@ -12,7 +12,7 @@
         ></a>
       </div>
       <aside class="services">
-        <div>
+        <div data-aos="fade-up" data-aos-duration="1500">
           <span class="services-title">Our Advices</span>
           <p class="services-desc">
             What if you took advantage of this rather special period to rethink
@@ -21,7 +21,7 @@
           </p>
         </div>
 
-        <div>
+        <div data-aos="fade-up" data-aos-duration="1500">
           <span class="services-title">Click and Collect</span>
           <p class="services-desc">
             Adapted and contactless. Free from € 200 of purchases in stores
@@ -29,7 +29,7 @@
           </p>
         </div>
 
-        <div>
+        <div data-aos="fade-up" data-aos-duration="1500">
           <span class="services-title">Conception Service</span>
           <p class="services-desc">
             Personalized service with an expert advisor for your interior and
@@ -37,7 +37,7 @@
           </p>
         </div>
 
-        <div>
+        <div data-aos="fade-up" data-aos-duration="1500">
           <span class="services-title">Installation Service</span>
           <p class="services-desc">
             Our furniture packaged in flat packs are designed for easy assembly.

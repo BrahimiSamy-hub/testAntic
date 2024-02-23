@@ -1,5 +1,9 @@
 <template>
-  <div style="margin-left: 32px; margin-right: 32px">
+  <div
+    style="margin-left: 32px; margin-right: 32px"
+    data-aos="fade-up"
+    data-aos-duration="1500"
+  >
     <h2 class="grid-title">Inspirations</h2>
     <p style="min-width: 310px" class="grid-p">
       Our experts are keen to stay on top of trends in order to offer you new
@@ -8,7 +12,7 @@
       you.
     </p>
     <div class="container">
-      <div class="container-img">
+      <div class="container-img" data-aos="fade-up" data-aos-duration="1500">
         <img
           src="../../../assets/Picture(3).png"
           alt=""
@@ -17,7 +21,7 @@
         <span style="margin-top: 15px"> Chair</span>
       </div>
 
-      <div class="container-img">
+      <div class="container-img" data-aos="fade-up" data-aos-duration="1500">
         <img
           src="../../../assets/Picture(4).png"
           alt=""

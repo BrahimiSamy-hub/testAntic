@@ -1,5 +1,5 @@
 <template>
-  <div style="">
+  <div data-aos="fade-up" data-aos-duration="1500">
     <swiper
       :navigation="{
         nextEl: '.custom-next',
