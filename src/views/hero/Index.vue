@@ -16,7 +16,7 @@
         <ScrollDownWhite class="logo-mobile" />
       </a>
     </div>
-    <div class="heroImg">
+    <div class="heroImg" data-aos="fade-up" data-aos-duration="1500">
       <img src="../../assets/Picture.jpeg" loading="lazy" alt="My Image" />
     </div>
   </div>

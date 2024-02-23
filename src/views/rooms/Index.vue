@@ -12,7 +12,6 @@
           prevEl: '.custom-prev',
         }"
         :pagination="pagination"
-        :loop="true"
         :breakpoints="breakpoints"
         :modules="modules"
         class="mySwiper"
@@ -63,9 +62,20 @@
         </swiper-slide>
 
         <swiper-slide>
-          <h2 class="slide-title">Living room</h2>
+          <h2 class="slide-title">Bedroom</h2>
           <img
             src="../../assets/Picture_1_.webp"
+            loading="lazy"
+            alt=""
+            class="slide-image"
+          />
+          <p class="slide-p">New arrivals</p>
+        </swiper-slide>
+
+        <swiper-slide>
+          <h2 class="slide-title">Living room</h2>
+          <img
+            src="../../assets/Picture_2_.webp"
             loading="lazy"
             alt=""
             class="slide-image"
@@ -158,7 +168,8 @@ export default {
 .slide-title {
   position: absolute;
   color: #a06056;
-  margin-left: 100px;
+  margin-left: 140px;
+  max-width: 100px;
 }
 .slide-p {
   color: #706458e5;

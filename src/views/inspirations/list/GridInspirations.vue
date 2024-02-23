@@ -18,7 +18,16 @@
           alt=""
           style="object-fit: contain"
         />
-        <span style="margin-top: 15px"> Chair</span>
+        <span
+          style="
+            margin-top: 15px;
+            color: #121212;
+            font-weight: 400;
+            font-size: 15px;
+          "
+        >
+          Chair</span
+        >
       </div>
 
       <div class="container-img" data-aos="fade-up" data-aos-duration="1500">
@@ -29,7 +38,7 @@
         />
         <span style="margin-top: 15px"> Cooked</span>
       </div>
-      <div class="container-img">
+      <div class="container-img" data-aos="fade-up" data-aos-duration="1500">
         <img
           src="../../../assets/Picture(6).png"
           alt=""
@@ -37,7 +46,7 @@
         />
         <span style="margin-top: 15px"> Living room</span>
       </div>
-      <div class="container-img">
+      <div class="container-img" data-aos="fade-up" data-aos-duration="1500">
         <img
           src="../../../assets/Picture(5).png"
           alt=""

@@ -1,5 +1,5 @@
 <template>
-  <div class="menu" data-aos="fade-up" data-aos-duration="1500">
+  <div class="menu" data-aos="zoom-in" data-aos-duration="1500">
     <nav>
       <ul>
         <a href="#"
@@ -7,7 +7,7 @@
             <Logo class="logo-desktop" />
             <LogoWhite class="logo-mobile" /></div
         ></a>
-        <li><a href="#">roducts</a></li>
+        <li><a href="#">Products</a></li>
         <li><a href="#">Rooms</a></li>
         <li><a href="#">Services</a></li>
         <li><a href="#">Inspirations</a></li>
@@ -28,8 +28,6 @@ export default { components: { LogoWhite, Logo } }
 </script>
 
 <style scoped>
-/* @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Varta:wght@300..700&display=swap'); */
-
 .menu {
   z-index: 1000;
   position: absolute;

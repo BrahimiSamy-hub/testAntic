@@ -103,18 +103,12 @@ section {
 }
 
 @media screen and (max-width: 1024px) {
-  /* section {
-    margin-right: 50px;
-    margin-left: 50px;
-  } */
-
-  .container {
-    /* text-align: center; */
-  }
-
   .section {
     grid-template-columns: 1fr;
     gap: 30px;
+  }
+  .section-title {
+    font-size: 35px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -123,15 +117,9 @@ section {
     margin-left: 38px;
   }
 
-  /* .section,
-  .container, */
   .services {
     grid-template-columns: 1fr;
     gap: 30px;
-  }
-
-  .services {
-    /* grid-template-rows: repeat(4, auto); */
   }
 }
 </style>

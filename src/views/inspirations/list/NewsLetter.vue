@@ -6,7 +6,8 @@
         Stay informed of new trends, but also of our various offers.
       </p>
       <a href="#"
-        ><span>Learn more </span><img src="../../../assets//Right.svg" alt=""
+        ><span style="font-weight: 700; font-size: 17px">Learn more </span
+        ><img src="../../../assets//Right.svg" alt=""
       /></a>
     </div>
     <aside class="input subscription-form">
@@ -104,6 +105,7 @@ input {
   .subscription-form {
     display: flex;
     flex-direction: column;
+    margin-bottom: 64px;
   }
 }
 
