@@ -20,15 +20,17 @@
     </aside>
   </div>
 </template>
+
 <script></script>
+
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Varta:wght@300..700&display=swap');
 
-content-title {
+.content-title {
   font-size: 35px;
   color: #121212;
 }
-content-paragraphe {
+.content-paragraphe {
   font-size: 18px;
   color: #706458e5;
 }
@@ -38,11 +40,14 @@ span {
 }
 
 .content {
+  margin-right: 150px;
+  margin-left: 150px;
   display: flex;
+
   gap: 159;
   justify-content: space-between;
   align-items: center;
-  margin-top: 70px;
+  /* margin-top: 70px; */
 }
 
 .text {
@@ -71,12 +76,6 @@ input {
   border: none;
 }
 
-.subscription-form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .subscription-form input[type='email'] {
   padding: 10px;
   font-size: 18px;
@@ -92,24 +91,31 @@ input {
 }
 
 @media screen and (max-width: 768px) {
+  .text {
+    margin-top: 50px;
+    margin-bottom: 32px;
+  }
   .content {
-    display: block;
+    margin-left: 32px;
+    margin-right: 32px;
+    flex-direction: column;
+    align-items: start;
   }
   .subscription-form {
-    justify-content: start;
+    display: flex;
+    flex-direction: column;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .content {
     display: block;
+    margin-right: 70px;
+    margin-left: 70px;
   }
+
   .subscription-form {
-    justify-content: center;
-  }
-  .text {
-    justify-content: center;
-    text-align: center;
+    margin-bottom: 50px;
   }
 }
 </style>

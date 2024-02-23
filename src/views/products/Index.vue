@@ -2,7 +2,7 @@
   <section>
     <div class="section">
       <div class="container">
-        <h2 class="section-title">
+        <h2 class="section-title" style="color: #706458">
           We stay by your side to design your projects
         </h2>
 
@@ -55,7 +55,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Varta:wght@300..700&display=swap');
 
 section {
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   margin-top: 64px;
 }
 
@@ -98,7 +98,7 @@ section {
 .section {
   grid-template: repeat(1, 1fr) / repeat(2, 1fr);
   display: grid;
-  margin-top: 64px;
+
   align-items: center;
 }
 

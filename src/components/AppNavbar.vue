@@ -13,10 +13,10 @@
         <li><a href="#">Inspirations</a></li>
       </ul>
     </nav>
-    <a href="#"
+    <!-- <a href="#"
       ><li class="img">
         <img src="../assets/Contact.svg" alt="Contact" /></li
-    ></a>
+    ></a> -->
   </div>
 </template>
 
@@ -48,13 +48,13 @@ a {
 }
 
 nav li {
-  padding-top: 7px;
+  padding-top: 8px;
 }
 
 nav ul {
   list-style: none;
   display: flex;
-  gap: 24px;
+  gap: 32px;
   align-items: center;
   justify-content: center;
 }

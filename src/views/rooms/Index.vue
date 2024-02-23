@@ -11,10 +11,7 @@
           nextEl: '.custom-next',
           prevEl: '.custom-prev',
         }"
-        :pagination="{
-          clickable: true,
-          el: '.swiper-pagination',
-        }"
+        :pagination="pagination"
         :loop="true"
         :breakpoints="breakpoints"
         :modules="modules"
@@ -65,12 +62,26 @@
           <p class="slide-p">New arrivals</p>
         </swiper-slide>
 
-        <div class="swiper-navigation">
+        <swiper-slide>
+          <h2 class="slide-title">Living room</h2>
+          <img
+            src="../../assets/Picture_1_.webp"
+            loading="lazy"
+            alt=""
+            class="slide-image"
+          />
+          <p class="slide-p">New arrivals</p>
+        </swiper-slide>
+
+        <div
+          class="swiper-navigation"
+          style="display: flex; justify-content: space-between"
+        >
           <span class="custom-next"
             >Next
             <img src="../../assets/Right.svg" alt="" />
           </span>
-          <!-- <div class="swiper-pagination"></div> -->
+          <div class="swiper-pagination"></div>
         </div>
       </swiper>
     </div>
@@ -80,7 +91,6 @@
 import { Swiper, SwiperSlide } from 'swiper/vue'
 import { Pagination, Navigation } from 'swiper/modules'
 import 'swiper/css'
-import 'swiper/css/pagination'
 import 'swiper/css/navigation'
 
 export default {
@@ -89,6 +99,11 @@ export default {
     SwiperSlide,
   },
   setup() {
+    const customPaginationRender = (swiper, current, total) => {
+      return `${current.toString().padStart(2, '0')}/${total
+        .toString()
+        .padStart(2, '0')}`
+    }
     return {
       modules: [Pagination, Navigation],
 
@@ -98,12 +113,24 @@ export default {
           spaceBetween: 10,
         },
       },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        type: 'custom',
+        renderCustom: customPaginationRender,
+      },
     }
   },
 }
 </script>
 
 <style scoped>
+.swiper-pagination {
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #706458e5;
+}
 .custom-next {
   cursor: pointer;
 }

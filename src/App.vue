@@ -1,5 +1,5 @@
 <template>
-  <!-- <AppNavbar /> -->
+  <AppNavbar />
   <Hero />
   <Room />
   <Products />

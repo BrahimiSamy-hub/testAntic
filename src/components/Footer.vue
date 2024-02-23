@@ -119,6 +119,10 @@
 snap {
   font-family: 'Varta', sans-serif;
 }
+
+a {
+  color: #706458;
+}
 .social {
   display: flex;
   gap: 20px;
@@ -179,21 +183,21 @@ snap {
     margin-bottom: 22px;
     color: #534b42;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 22px;
   }
 
   .sub-title {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 8px;
     color: #706458;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
   }
   .footer {
     margin-top: 48px;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
   }
 }
 @media screen and (max-width: 768px) {

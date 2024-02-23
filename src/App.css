@@ -36,8 +36,8 @@ body {
     font-size: 35px;
   }
   section {
-    margin-left: 38px;
-    margin-right: 38px;
+    margin-left: 32px;
+    margin-right: 32px;
   }
 }
 @media screen and (max-width: 1024px) {

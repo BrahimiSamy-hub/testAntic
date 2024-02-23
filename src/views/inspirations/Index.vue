@@ -1,8 +1,8 @@
 <template>
   <div class="container">
     <NewsLetter />
-    <Slider />
-    <GridInspirations />
+    <Slider class="desktop" />
+    <GridInspirations class="mobile" />
   </div>
 </template>
 
@@ -14,24 +14,25 @@ export default { components: { NewsLetter, Slider, GridInspirations } }
 </script>
 
 <style scoped>
+.desktop {
+  display: block;
+}
+.mobile {
+  display: none;
+}
+
 .slick-slide {
   margin: 0 20px;
 }
 .container {
   background-color: white;
-  padding-left: 150px;
-  /* padding-right: 150px; */
 }
 @media screen and (max-width: 768px) {
-  .container {
-    padding-left: 32px;
-    padding-right: 32px;
+  .desktop {
+    display: none;
   }
-}
-@media screen and (max-width: 1024) {
-  .container {
-    padding-left: 70px;
-    padding-right: 70px;
+  .mobile {
+    display: block;
   }
 }
 </style>
