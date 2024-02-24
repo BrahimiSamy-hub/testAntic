@@ -31,9 +31,7 @@
         <img src="../../../assets/Picture(3).png" alt="" />
       </swiper-slide>
 
-      <div
-        style="display: flex; gap: 350px; margin-top: 50px; margin-bottom: 50px"
-      >
+      <div class="pagination">
         <div class="content">
           <h2 style="color: #534b42">Inspirations</h2>
           <p style="width: 359px; color: #706458; font-size: 18px">
@@ -81,7 +79,7 @@ export default {
       slidesPerView: 1.5,
       modules: [Pagination, Navigation],
       breakpoints: {
-        1024: {
+        800: {
           slidesPerView: 1.5,
           spaceBetween: 30,
         },
@@ -123,6 +121,13 @@ export default {
   cursor: pointer;
 }
 
+.pagination {
+  display: flex;
+  gap: 350px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .custom-prev {
   cursor: pointer;
 }
@@ -151,6 +156,15 @@ export default {
     display: flex;
     gap: 100px;
     margin-top: 40px;
+  }
+  .pagination {
+    gap: 40px;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .pagination {
+    gap: 80px;
   }
 }
 </style>

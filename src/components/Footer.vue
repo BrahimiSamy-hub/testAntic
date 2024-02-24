@@ -205,8 +205,15 @@ a {
   }
   .footer {
     margin-top: 48px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 70px;
+    margin-left: 70px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    margin-top: 48px;
+    margin-right: 32px;
+    margin-left: 32px;
   }
 }
 @media screen and (max-width: 767px) {
