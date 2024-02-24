@@ -1,7 +1,9 @@
 <template>
   <footer class="footer" data-aos="fade-up" data-aos-duration="1500">
     <div class="links">
-      <span><img src="../assets/LogotypeFooter.svg" alt="" /></span>
+      <span class="footer-row"
+        ><img src="../assets/LogotypeFooter.svg" alt=""
+      /></span>
 
       <ul>
         <li class="title">Products</li>
@@ -48,7 +50,7 @@
         </ul>
       </ul>
 
-      <ul>
+      <ul class="footer-row">
         <li class="title">We respect our planet</li>
         <ul class="">
           <img
@@ -86,6 +88,7 @@
       </ul>
       <ul>
         <ul
+          class="policy"
           style="
             display: flex;
             flex-direction: end;
@@ -130,6 +133,7 @@ a {
 }
 
 .footer {
+  margin-bottom: 48px;
   margin-top: 70px;
   margin-right: 150px;
   margin-left: 150px;
@@ -155,6 +159,10 @@ a {
   font-size: 25px;
 }
 
+.policy {
+  justify-content: center;
+}
+
 .sub-title {
   display: flex;
   flex-direction: column;
@@ -168,14 +176,16 @@ a {
   color: #706458;
   font-weight: 400;
   font-size: 18px;
-  margin-bottom: 48px;
+  /* margin-bottom: 48px; */
   text-align: center;
 }
 
 .links {
+  flex-wrap: wrap;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 50px;
 }
 @media (max-width: 1024px) {
   .title {
@@ -199,7 +209,7 @@ a {
     margin-left: 20px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .links {
     gap: 48px;
     flex-direction: column;
@@ -224,6 +234,11 @@ a {
     margin-top: 48px;
     margin-right: 32px;
     margin-left: 32px;
+  }
+}
+@media screen and (max-width: 1325px) {
+  .footer-row {
+    width: 100%;
   }
 }
 </style>

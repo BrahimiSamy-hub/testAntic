@@ -82,6 +82,14 @@ export default {
       modules: [Pagination, Navigation],
       breakpoints: {
         1024: {
+          slidesPerView: 1.5,
+          spaceBetween: 30,
+        },
+        1300: {
+          slidesPerView: 2.5,
+          spaceBetween: 30,
+        },
+        1450: {
           slidesPerView: 3.5,
           spaceBetween: 30,
         },
