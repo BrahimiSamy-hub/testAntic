@@ -109,7 +109,7 @@ input {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
   .content {
     display: block;
     margin-right: 70px;
