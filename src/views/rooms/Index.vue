@@ -157,7 +157,7 @@ export default {
   font-weight: 700;
 }
 .swiper {
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
   width: 100%;
   height: 100%;
 }
@@ -239,6 +239,11 @@ export default {
     margin-top: 48px;
     font-size: 35px;
     margin-bottom: 20px;
+  }
+
+  .slide-title {
+    font-size: 35px;
+    margin-left: 100px;
   }
 
   .container {

@@ -88,11 +88,10 @@
         <ul
           style="
             display: flex;
+            flex-direction: end;
             margin-top: 20px;
             margin-bottom: 20px;
             gap: 20px;
-
-            flex-direction: end;
           "
         >
           <li>

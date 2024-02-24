@@ -74,7 +74,7 @@ export default { components: { ScrollDownWhite, ScrollDown } }
   width: 60%;
   object-fit: cover;
 }
-@media (max-width: 1300px) {
+@media (max-width: 1375px) {
   .title-hero {
     color: #ffffff;
     font-size: 35px;

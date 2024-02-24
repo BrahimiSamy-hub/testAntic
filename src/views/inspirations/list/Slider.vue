@@ -31,17 +31,12 @@
         <img src="../../../assets/Picture(3).png" alt="" />
       </swiper-slide>
 
-      <div style="display: flex; gap: 350px; margin-top: 50px">
+      <div
+        style="display: flex; gap: 350px; margin-top: 50px; margin-bottom: 50px"
+      >
         <div class="content">
           <h2 style="color: #534b42">Inspirations</h2>
-          <p
-            style="
-              width: 359px;
-              color: #706458;
-              font-size: 18px;
-              margin-bottom: 50px;
-            "
-          >
+          <p style="width: 359px; color: #706458; font-size: 18px">
             Our experts are keen to stay on top of trends in order to offer you
             new inspirations for your interior and exterior every day. Remember
             that to inspire you we have to inspire ourselves and we want to
@@ -110,7 +105,7 @@ export default {
 }
 
 .swiper-pagination {
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
   font-size: 18px;
   font-weight: 400;
   color: #706458e5;
@@ -123,7 +118,7 @@ export default {
 .custom-prev {
   cursor: pointer;
 }
-* .swiper-navigation {
+.swiper-navigation {
   margin-top: 48px;
   color: #a06056;
   font-size: 20px;
@@ -139,8 +134,7 @@ export default {
   width: 450px;
   height: 550px;
 }
-@media screen and (max-width: 768px) {
-}
+
 @media screen and (max-width: 1024px) {
   .mySwiper {
     padding-left: 70px;

@@ -2,7 +2,7 @@
   <div class="container">
     <NewsLetter />
     <Slider class="desktop" />
-    <GridInspirations class="mobile" />
+    <GridInspirations class="mobile" style="margin: 50px 36px" />
   </div>
 </template>
 
@@ -33,6 +33,10 @@ export default { components: { NewsLetter, Slider, GridInspirations } }
   }
   .mobile {
     display: block;
+  }
+  .container {
+    margin-top: 50px;
+    margin-bottom: 70px;
   }
 }
 </style>
